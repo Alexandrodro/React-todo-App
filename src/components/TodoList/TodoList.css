@@ -1,0 +1,17 @@
+.todo-list {
+	margin-bottom: 10px;
+}
+
+.todo-list .list-group-item {
+  padding: .25rem .75rem;
+}
+
+/* States of items */
+.list-group-item.important {
+  font-weight: bold;
+  background: steelblue;
+}
+
+.list-group-item.done {
+  text-decoration: line-through;
+}

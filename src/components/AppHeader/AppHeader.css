@@ -1,0 +1,16 @@
+.app-header {
+ 	align-items: flex-end;
+ 	user-select: none;
+}
+
+.app-header h1 {
+ 	flex-grow: 1;
+ 	color: 	#CC9966;
+ 	text-shadow: 1px 1px 2px black;
+}
+
+.app-header h2 {
+ 	font-size: 1.2rem;
+ 	color: 	#CC9966;
+ 	text-shadow: 1px 1px 2px black
+}

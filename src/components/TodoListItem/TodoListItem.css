@@ -1,0 +1,30 @@
+.todo-list-item {
+  font-size: 1.25rem;
+}
+
+.todo-list-item button {
+  width: 35px;
+  margin: .15em;
+  background: #ffffff;
+  border-radius: 0.2em !important
+}
+
+.todo-list-item-label {
+	/*display: inline-block;*/
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+  white-space: normal;
+}
+
+.list-group-item .btn:first-child {
+  margin-right: .3em;
+}
+
+.list-group-item.important .btn:first-child {
+	background: #28a745;
+}
+
+.list-group-item.important .btn:first-child i {
+	color: #ffffff;
+}
